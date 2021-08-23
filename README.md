@@ -11,3 +11,8 @@ Cek apakah instalasi berhasil dengan perintah: <br>
 <code>php -v</code>
 
 Jika berhasil akan muncul keterangan
+
+Install web server apache dengan perintah: <br>
+<code>pkg install apache2</code>
+
+

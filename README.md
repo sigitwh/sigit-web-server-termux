@@ -21,4 +21,6 @@ Setelah itu buat sebuah direktory atau folder bernama www dengan perintah:<br>
 Kemudian buat sebuah file uji coba bernama index.php dengan perintah:<br>
 <code>nano www/index.php</code>
 
+Ketiklah:
+<code><?php phpinfo(); ?></code>
 

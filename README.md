@@ -24,6 +24,9 @@ Kemudian buat sebuah file uji coba bernama index.php dengan perintah:<br>
 Ketiklah:
 <code>php phpinfo(); </code>
 
-Jalankan PHP dengan perintah:
+Jalankan PHP dengan perintah:<br>
 <code>php -S localhost:8080 -t www</code>
+
+Jika ingin PHP dapat dibuka di komputer lain, gunakan perintah:<br>
+<code>php -S 0.0.0.0:8080 -t www<code>
 

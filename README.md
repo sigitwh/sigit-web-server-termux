@@ -27,6 +27,12 @@ Ketiklah:
 Jalankan PHP dengan perintah:<br>
 <code>php -S localhost:8080 -t www</code>
 
-Jika ingin PHP dapat dibuka di komputer lain, gunakan perintah:<br>
+Jika ingin PHP dapat dibuka di HP/komputer/device lain, gunakan perintah:<br>
 <code>php -S 0.0.0.0:8080 -t www<code>
 
+  <h1>Instalasi MariaDB</h1>
+  
+ Install MariaDb dengan perintah: <br>
+  <code>pkg install madiadb</code>
+  
+  

@@ -15,4 +15,10 @@ Jika berhasil akan muncul keterangan
 Install web server apache dengan perintah: <br>
 <code>pkg install apache2</code>
 
+Setelah itu buat sebuah direktory atau folder bernama www dengan perintah:<br>
+<code>mkdir www</code>
+
+Kemudian buat sebuah file uji coba bernama index.php dengan perintah:<br>
+<code>nano www/index.php</code>
+
 

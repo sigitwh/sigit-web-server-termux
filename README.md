@@ -24,3 +24,6 @@ Kemudian buat sebuah file uji coba bernama index.php dengan perintah:<br>
 Ketiklah:
 <code>php phpinfo(); </code>
 
+Jalankan PHP dengan perintah:
+<code>php -S localhost:8080 -t www</code>
+

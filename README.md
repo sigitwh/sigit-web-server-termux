@@ -35,4 +35,13 @@ Jika ingin PHP dapat dibuka di HP/komputer/device lain, gunakan perintah:<br>
  Install MariaDb dengan perintah: <br>
   <code>pkg install madiadb</code>
   
+  Ketikkan perintah: <br>
+  <code>mysqld_safe -u root &</code>
   
+  Ubah password root: <br>
+  <code>mysql -u $(whoami)
+  
+  use mysql;
+set password for 'root'@'localhost' = password('1234');
+flush privileges;
+quit;</code>

@@ -1,5 +1,21 @@
 # sigit-web-server-termux
 
+==== update 18 September 2021 ====
+
+install apache2 dengan perintah:
+
+<code>pkg install apache2</code>
+
+setelah berhasil di install, jalankan apache dengan perintah:
+
+<code>apachectl start</code>
+
+hasilnya lihat melalui browser dengan alamat:
+
+<code>http://localhost:8080</code>
+
+==================================
+
 Pertama-tama lakukan update terlebih dahulu dengan perintah:<br>
 <code>
   pkg update

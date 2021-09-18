@@ -2,6 +2,10 @@
 
 ==== update 18 September 2021 ====
 
+Pertama-tama lakukan update terlebih dahulu dengan perintah:
+
+<code> pkg update </code> 
+
 install apache2 dengan perintah:
 
 <code>pkg install apache2</code>
@@ -14,12 +18,16 @@ hasilnya lihat melalui browser dengan alamat:
 
 <code>http://localhost:8080</code>
 
+secara default apache menggunakan file index.htm yang berlokasi di:
+
+/data/data/com.termux/files/usr/share/apache2/default-site/htdocs
+
+
+
 ==================================
 
-Pertama-tama lakukan update terlebih dahulu dengan perintah:<br>
-<code>
-  pkg update
-  </code><br>&nbsp;<br>
+<br>
+<br>&nbsp;<br>
 Kemudian lakukan instalasi PHP dengan perintah: <br>
 <code>pkg install php</code><br>&nbsp;<br>
 

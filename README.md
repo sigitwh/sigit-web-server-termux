@@ -22,23 +22,20 @@ secara default apache menggunakan file index.htm yang berlokasi di:
 
 /data/data/com.termux/files/usr/share/apache2/default-site/htdocs
 
+Kemudian lakukan instalasi PHP dengan perintah:
 
-
-==================================
-
-<br>
-<br>&nbsp;<br>
-Kemudian lakukan instalasi PHP dengan perintah: <br>
-<code>pkg install php</code><br>&nbsp;<br>
+<code>pkg install php</code>
 
 Cek apakah instalasi berhasil dengan perintah: <br>
 <code>php -v</code>
 
-Jika berhasil akan muncul keterangan
+Jika berhasil akan muncul keterangan versi PHP
 
-Install web server apache dengan perintah: <br>
-<code>pkg install apache2</code>
+Kemduian lakukan instalasi modul php-apache dengan perintah:
 
+<code>pkg install php-apache</code>
+
+====================================
 Setelah itu buat sebuah direktory atau folder bernama www dengan perintah:<br>
 <code>mkdir www</code>
 

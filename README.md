@@ -35,6 +35,29 @@ Kemduian lakukan instalasi modul php-apache dengan perintah:
 
 <code>pkg install php-apache</code>
 
+Sampai disini apache biasanya belum bisa menjalankan PHP sehingga perlu dilakukan beberapa pengaturan
+
+Edit konfigurasi apache pada file httpd.conf yagn ada di lokasi:
+
+/data/data/com.termux/files/usr/etc/apache2
+
+Untuk mengedit lakukan perintah:
+
+<code>nano /data/data/com.termux/files/usr/etc/apache2/httpd.conf</code>
+
+Lakukan mencarian dengan menekan tombol <code>Ctrl+w</code>, ketik kata kunci LoadModule, lalu enter
+Aktifkan module mod_mpm_prefork.so
+Non aktifkan module mod_mpm_worker.so
+
+Tambahkan modul PHP dengan cara menambahkan perintah
+
+<code>LoadModule php_module libexec/apache2/libphp.so</code>
+
+Perintah tersebut apabila menggunakan PHP versi 8, untuk PHP versi lain silahkan disesuaikan
+
+
+
+
 ====================================
 Setelah itu buat sebuah direktory atau folder bernama www dengan perintah:<br>
 <code>mkdir www</code>

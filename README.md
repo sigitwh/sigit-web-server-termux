@@ -1,3 +1,7 @@
+==== update 27 Oktober 2022 ===
+termux sudah tidak disupport lagi
+kemungkinan tutorial yang ada di sini sudah tidak bisa digunakan
+
 # sigit-web-server-termux
 
 ==== update 18 September 2021 ====

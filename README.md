@@ -1,3 +1,5 @@
+===== update 21 Desember 2023 ====
+termux bisa diinstall lagi menggunakan aplikasi f-droid
 ==== update 27 Oktober 2022 ===
 termux sudah tidak disupport lagi
 kemungkinan tutorial yang ada di sini sudah tidak bisa digunakan
